@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+
+<h2> Fall 2020 - University of Calgary </h2>
+<h2> CPSC 583 </h2>
+<h2> Minh Hang Chu - 30074056 </h2>
+<h2> Project Hand-in 3 </h2>
+
+<div class="wrapper">
+    <a href="version1.html"><button> Variation 1 </button></a>
+    <a href="version2.html"><button> Variation 2 </button></a>
+    <a href="version3.html"><button> Variation 3 </button></a>
+</div>
+
+<p> Variation 1 shows continents, countries, and companies' names and each of them has a bubble. Each bubble has different colors to encode the type of business. For this version, I did not use different sizes of the bubble to encode revenue because businesses' revenues vary and Walmart's revenue is much higher than other companies, which makes the bubble oddly huge compared to others. Moving forward, I plan to make the chart more interactive and show revenues and other elements when the user hovers the mouse on each bubble. Each node is represented by a same-size bubble (both parent node and child node).</p>
+
+<script type="text/javascript">
+    var radius = 600;
+    var margin = 200;
+    var angle = 360;
+    var cluster = d3.layout.cluster()
+        .size([angle, radius-margin]);
+    var diagonal = d3.svg.diagonal.radial()
+        .projection (function(d) { return [d.y, d.x / 180* Math.PI];});  var svg = d3.select("body").append("svg")
+        .attr("width",2*radius)
+        .attr("height",2*radius)
+        .append("g")
+        .attr("transform","translate("+radius + "," + radius + ")");
+
+    d3.json("retail.json", function(error, root){
+        var nodes = cluster.nodes(root);
+        var links = cluster.links(nodes);
+        var link = svg.selectAll(".link")
+            .data(links)
+            .enter().append("path")
+            .attr("class","link")
+            .attr("d", diagonal);
+        var node = svg.selectAll(".node")
+            .data(nodes)
+            .enter().append("g")
+            .attr("class","node")
+            .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
+            .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; });
+        var myColor = d3.scale.ordinal()
+            .domain([d3.extent(node, function (d) {
+                return d.dominant;
+            })])
+            .range(["red", "blue", "greenyellow", "yellow", "green", "grey", "violet", "pink", "brown", "slateblue", "grey1", "orange","rebeccapurple"]);
+
+        node.append("circle")
+            .attr("r", 4.5)
+            .attr('cx', 4.5)
+            .attr("fill", function(d){return myColor(d.dominant)});
+
+        node.append("text")
+            .attr("dy", ".31em")
+            .attr("x", function(d) { return d.x < 180  ? 8 : -8; })
+            .attr("text-anchor", function(d) { return d.x < 180  ? "start" : "end"; })
+            .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
+            .text(function(d) { return d.name; });
+    });
+</script>
+</body>
+</html>

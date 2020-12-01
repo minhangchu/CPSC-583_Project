@@ -1,0 +1,36 @@
+p {
+    text-align: center;
+    font: 15px sans-serif;
+    margin: 100px;
+}
+.wrapper {
+    text-align: center;
+}
+h2 {
+    font: 20px sans-serif;
+    text-align: center;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 60px;
+}
+.node text {
+    font: 10px sans-serif;
+}
+.node--internal circle {
+    fill: #555;
+}
+.node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+line { stroke: black; }
