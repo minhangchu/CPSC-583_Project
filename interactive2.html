@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>CPSC Project Hand-in 3</title>
     <link rel="stylesheet" href="index.css">
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-
 </head>
-<body>
-
 <h2> Top 250 Retailers in 2017 </h2>
 <div class="wrapper">
     <a href="interactive2.html"><button> Sort by Revenue </button></a>
@@ -16,11 +13,6 @@
     <a href="collapsible.html"><button> Let's dig in </button></a>
 </div>
 
-</body>
-<!doctype html>
-<html>
-
-<body>
 <script type="text/javascript">
     var radius = 500;
     var margin = 250;
@@ -38,7 +30,7 @@
     var circleGraph = svg.append("g")
         .attr("transform","translate("+radius + "," + radius + ")");
 
-    d3.json("retail.json", function(error, root){
+    d3.json("retail1.json", function(error, root){
         var nodes = tree.nodes(root);
         var links = tree.links(nodes);
 
@@ -97,7 +89,7 @@
             .on("mouseout", handleMouseOut);
 
         var infoBox = svg.append("g").attr("class","info")
-            .attr("transform","translate("+ radius*2.1 + "," + radius*1.2 + ")")
+            .attr("transform","translate("+radius*2.1 + "," + radius*1.1 + ")")
 
         var legend = svg.append("g").attr("class", "legend-group")
             .attr("transform","translate("+radius*2 + "," + 0 + ")")
@@ -161,7 +153,6 @@
                 .text(d.name + "")
                 .attr("x", 15)
                 .attr("y", 20)
-                .style("font-weight", 10)
             d3.select("text.revenue")
                 .text("Revenue: $" + d.revenue)
                 .attr("x", 15)
@@ -225,7 +216,6 @@
 
     });
 </script>
-
 </body>
 
 </html>
