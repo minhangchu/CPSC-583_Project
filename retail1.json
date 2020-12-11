@@ -1,0 +1,1823 @@
+{  "name": "Top 250 Retailers",
+   "children": [ {
+      "name": "Africa",
+      "children": [
+        {"name": "South Africa",
+          "children": [
+            { "name": "Shoprite Holdings Ltd.",
+              "revenue": 11294,
+              "dominant": "Supermarket",
+              "rank": 86,
+              "operatingCountries": 15 },
+            { "name": "The SPAR Group Limited",
+              "revenue": 7252,
+              "dominant": "Supermarket",
+              "rank": 140,
+              "operatingCountries": 12 },
+            { "name": "Pick n Pay Stores Limited",
+              "revenue": 6225,
+              "rank": 160,
+              "dominant": "Supermarket",
+              "operatingCountries": 7 },
+            { "name": "Woolworths Holdings Limited",
+              "revenue": 5332,
+              "dominant": "Department Store",
+              "rank": 179,
+              "operatingCountries": 14}
+          ]     }
+      ]
+    },{
+    "name": "Asia",
+    "children": [
+      {"name": "China",
+        "children": [
+          { "name": "JD.com",
+            "revenue": 49088,
+            "dominant": "Non-Store",
+            "rank": 20,
+            "operatingCountries": 1
+          },
+          {"name": "Suning.com Co.",
+            "revenue": 27801,
+            "dominant": "Electronics Specialty",
+            "rank": 36,
+            "operatingCountries": 2
+          },
+          { "name": "China Resources Vanguard Co.",
+            "revenue": 12266,
+            "Operational Dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 81,
+            "Operation Countries": 1
+          },
+          { "name": "Gome Retail Holdings Limited",
+            "revenue": 10588,
+            "dominant": "Electronics Specialty",
+            "rank": 95,
+            "operatingCountries": 1
+          },
+          { "name": "Vipshop Holdings Limited",
+            "revenue": 10939,
+            "dominant": "Non-Store",
+            "rank": 92,
+            "operatingCountries": 1
+          },
+          {"name": "Yonghui Superstores Co.",
+            "revenue": 8119,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 127,
+            "operatingCountries": 1
+          },
+          {"name": "Shanghai Bailian Group Co.",
+            "revenue": 6980,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 147,
+            "operatingCountries": 1
+          },
+          {"name": "Wumart Holdings",
+            "revenue": 5223,
+            "dominant": "Supermarket",
+            "rank": 187,
+            "operatingCountries": 1
+          },
+          { "name": "Chongqing Department Store Co.",
+            "revenue": 3941,
+            "dominant": "Department Store",
+            "rank": 235,
+            "operatingCountries": 1
+          },
+          { "name": "Wangfujing Group Co.",
+            "revenue": 3859,
+            "dominant": "Department Store",
+            "rank": 241,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Hong Kong",
+        "children": [
+          {"name": "A.S. Watson Group",
+            "revenue": 20039,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 50,
+            "operatingCountries": 24
+          },
+          {"name": "Dairy Farm International Holdings",
+            "revenue": 11289,
+            "dominant": "Supermarket",
+            "rank": 87,
+            "operatingCountries": 11
+          },
+          {"name": "Chow Tai Fook Jewellery Group Limited",
+            "revenue": 7575,
+            "dominant": "Other Specialty",
+            "rank": 136,
+            "operatingCountries": 7
+          }
+        ]     },
+      {"name": "India",
+        "children": [
+          {"name": "Reliance Industries Limited / Reliance",
+            "revenue": 10649,
+            "dominant": "Supermarket",
+            "rank": 94,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Indonesia",
+        "children": [
+          {"name": "PT Indomarco Prismatama (Indomaret)",
+            "revenue": 4703,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 207,
+            "operatingCountries": 1
+          },
+          {
+            "name": "PT Sumber Alfaria Trijaya Tbk (Alfamart)",
+            "revenue": 4579,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 214,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Japan",
+        "children": [
+          {"name": "Aeon Co.",
+            "revenue": 70072,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 13,
+            "operatingCountries": 11
+          },
+          {
+            "name": "Seven & I Holdings Co.",
+            "revenue": 51889,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 18,
+            "operatingCountries": 19
+          },
+          {
+            "name": "Fast Retailing Co.",
+            "revenue": 16815,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 56,
+            "operatingCountries": 21
+          },
+          {
+            "name": "Yamada Denki Co.",
+            "revenue": 14198,
+            "dominant": "Electronics Specialty",
+            "rank": 67,
+            "operatingCountries": 5
+          },
+          {
+            "name": "FamilyMart UNY Holdings Co.",
+            "revenue": 11443,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 84,
+            "operatingCountries": 8
+          },
+          {
+            "name": "Isetan Mitsukoshi Holdings Ltd.",
+            "revenue": 11170,
+            "dominant": "Department Store",
+            "rank": 89,
+            "operatingCountries": 8
+          },
+          { "name": "Don Quijote Holdings Co.",
+            "revenue": 8279,
+            "dominant": "Discount Department Store",
+            "rank": 124,
+            "operatingCountries": 2},
+          {
+            "name": "Takashimaya Company",
+            "revenue": 7735,
+            "dominant": "Department Store",
+            "rank": 134,
+            "operatingCountries": 4
+          },
+          {
+            "name": "H2O Retailing Corporation",
+            "revenue": 7724,
+            "dominant": "Department Store",
+            "rank": 135,
+            "operatingCountries": 2
+          },
+          { "name": "Bic Camera Inc.",
+            "revenue": 7151,
+            "dominant": "Electronics Specialty",
+            "rank": 142,
+            "operatingCountries": 1},
+          {"name": "Beisia Group Co.",
+            "revenue": 7145,
+            "dominant": "Home Improvement",
+            "rank": 143,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Izumi Co.",
+            "revenue": 6248,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 158,
+            "operatingCountries": 1
+          },
+          { "name": "Edion Corporation",
+            "revenue": 6191,
+            "dominant": "Electronics Specialty",
+            "rank": 161,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Yodobashi Camera Co.",
+            "revenue": 6139,
+            "dominant": "Electronics Specialty",
+            "rank": 163,
+            "operatingCountries": 1
+          },
+          {
+            "name": "K's Holdings Corporation",
+            "revenue": 6127,
+            "dominant": "Electronics Specialty",
+            "rank": 164,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Tsuruha Holdings Inc.",
+            "revenue": 6086,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 166,
+            "operatingCountries": 2
+          },
+          {
+            "name": "Life Corporation Co.",
+            "revenue": 6081,
+            "dominant": "Supermarket",
+            "rank": 167,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Lawson",
+            "revenue": 5234,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 186,
+            "operatingCountries": 6
+          },
+          {
+            "name": "Sundrug Co.",
+            "revenue": 5090,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 189,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Shimamura Co.",
+            "revenue": 5071,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 190,
+            "operatingCountries": 3
+          },
+          { "name": "Cosmos Pharmaceutical Corp.",
+            "revenue": 5054,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 192,
+            "operatingCountries": 1},
+          {
+            "name": "Nitori Holdings Co.",
+            "revenue": 5015,
+            "dominant": "Other Specialty",
+            "rank": 193,
+            "operatingCountries": 4
+          },
+          {
+            "name": "MatsumotoKiyoshi Holdings Co.",
+            "revenue": 5014,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 194,
+            "operatingCountries": 2
+          },
+          {
+            "name": "Valor Holdings Co.",
+            "revenue": 4668,
+            "dominant": "Supermarket",
+            "rank": 209,
+            "operatingCountries": 2
+          },
+          { "name": "East Japan Railway Company (JR East)",
+            "revenue": 4646,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 211,
+            "operatingCountries": 1
+          },
+          {"name": "Arcs Co.",
+            "revenue": 4602,
+            "dominant": "Supermarket",
+            "rank": 212,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Sugi Holdings Co.",
+            "revenue": 4079,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 227,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Nojima Corporation",
+            "revenue": 4006,
+            "dominant": "Electronics Specialty",
+            "rank": 230,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Tokyu Corporation",
+            "revenue": 3903,
+            "dominant": "Department Store",
+            "rank": 236,
+            "operatingCountries": 2
+          },
+          { "name": "Daiso Industries Co.",
+            "revenue": 3816,
+            "dominant": "Discount Department Store",
+            "rank": 245,
+            "operatingCountries": 27},
+          {
+            "name": "Heiwado Co.",
+            "revenue": 3743,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 248,
+            "operatingCountries": 2
+          }
+        ]     },
+      {"name": "Philippines",
+        "children": [
+          {
+            "name": "SM Investments Corporation",
+            "revenue": 5886,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 169,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "S. Korea",
+        "children": [
+          {"name": "Lotte Shopping Co.",
+            "revenue": 14911,
+            "dominant": "Discount Store",
+            "rank": 65,
+            "operatingCountries": 6 },
+          { "name": "E-MART Inc.",
+            "revenue": 12876,
+            "dominant": "Supermarket",
+            "rank": 74,
+            "operatingCountries": 5},
+          { "name": "Homeplus Stores Co.",
+            "revenue": 7109,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 144,
+            "operatingCountries": 1},
+          { "name": "GS Retail Co.",
+            "revenue": 6828,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 149,
+            "operatingCountries": 2},
+          {
+            "name": "E.Land World Co.",
+            "revenue": 4891,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 200,
+            "operatingCountries": 3
+          }
+        ]     },
+      {"name": "Taiwan",
+        "children": [
+          {
+            "name": "President Chain Store Corp.",
+            "revenue": 6866,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 148,
+            "operatingCountries": 4
+          }
+        ]     },
+      {"name": "Thailand",
+        "children": [
+          {
+            "name": "CP ALL Plc.",
+            "revenue": 14387,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 66,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Central Group",
+            "revenue": 8631,
+            "dominant": "Department Store",
+            "rank": 119,
+            "operatingCountries": 6
+          }
+        ]     },
+      {"name": "Turkey",
+        "children": [
+          {
+            "name": "BİM Birleşik Mağazalar A.Ş.",
+            "revenue": 6792,
+            "dominant": "Discount Store",
+            "rank": 150,
+            "operatingCountries": 3
+          },
+          {
+            "name": "Migros Ticaret A.Ş.",
+            "revenue": 4206,
+            "dominant": "Supermarket",
+            "rank": 225,
+            "operatingCountries": 3
+          },
+          {
+            "name": "A101 Yeni Mağazacılık A.S",
+            "revenue": 3892,
+            "dominant": "Discount Store",
+            "rank": 237,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "UAE",
+        "children": [
+          {
+            "name": "Emke Group / Lulu Group International",
+            "revenue": 7420,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 138,
+            "operatingCountries": 10
+          },
+          {
+            "name": "Majid Al Futtaim Holding LLC",
+            "revenue": 7047,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 145,
+            "operatingCountries": 14
+          }
+        ]     }
+     ]
+  },{
+    "name": "Australia",
+    "children": [
+      {"name": "Australia",
+        "children": [
+          {
+            "name": "Wesfarmers Limited",
+            "revenue": 48748,
+            "dominant": "Supermarket",
+            "rank": 21,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Woolworths Limited",
+            "revenue": 42891,
+            "dominant": "Supermarket",
+            "rank": 22,
+            "operatingCountries": 3
+          },
+          {
+            "name": "JB Hi-Fi Limited",
+            "revenue": 5311,
+            "dominant": "Electronics Specialty",
+            "rank": 181,
+            "operatingCountries": 2
+          }
+        ]     },
+      {"name": "New Zealand",
+        "children": [
+          {
+            "name": "Foodstuffs North Island Ltd.",
+            "revenue": 4741,
+            "dominant": "Supermarket",
+            "rank": 203,
+            "operatingCountries": 1
+          }
+        ]     }
+    ]
+  },{
+    "name": "Europe",
+    "children": [
+      {"name": "Austria",
+        "children": [
+          { "name": "Spar Holding AG",
+            "revenue": 11403,
+            "dominant": "Supermarket",
+            "rank": 85,
+            "operatingCountries": 8
+          },
+          {
+            "name": "XXXLutz Group",
+            "revenue": 4729,
+            "dominant": "Other Specialty",
+            "rank": 204,
+            "operatingCountries": 10
+          }
+        ]     },
+      {"name": "Belgium",
+        "children": [
+          {
+            "name": "Louis Delhaize S.A.",
+            "revenue": 9581,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 106,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Colruyt Group",
+            "revenue": 8817,
+            "dominant": "Supermarket",
+            "rank": 117,
+            "operatingCountries": 3
+          },
+          {
+            "name": "C&A Europe",
+            "revenue": 7555,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 137,
+            "operatingCountries": 18
+          }
+        ]     },
+      {"name": "Croatia",
+        "children": [
+          {
+            "name": "Agrokor d.d.",
+            "revenue": 4702,
+            "dominant": "Supermarket",
+            "rank": 208,
+            "operatingCountries": 5
+          }
+        ]     },
+      {"name": "Denmark",
+        "children": [
+          {
+            "name": "Salling Group (formerly Dansk",
+            "revenue": 8858,
+            "dominant": "Discount Store",
+            "rank": 116,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Coop Danmark A/S",
+            "revenue": 5668,
+            "dominant": "Supermarket",
+            "rank": 172,
+            "operatingCountries": 2
+          }
+        ]     },
+      {"name": "Finland",
+        "children": [
+          {
+            "name": "S Group",
+            "revenue": 11260,
+            "dominant": "Supermarket",
+            "rank": 88,
+            "operatingCountries": 3
+          },
+          {
+            "name": "Kesko Corporation",
+            "revenue": 8115,
+            "dominant": "Supermarket",
+            "rank": 128,
+            "operatingCountries": 8
+          }
+        ]     },
+      {"name": "France",
+        "children": [
+          {
+            "name": "Auchan Holding SA",
+            "revenue": 58614,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 16,
+            "operatingCountries": 14
+          },
+          {
+            "name": "Casino Guichard-Perrachon S.A.",
+            "revenue": 42631,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 23,
+            "operatingCountries": 27
+          },
+          {
+            "name": "Centres Distributeurs E. Leclerc",
+            "revenue": 41535,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 25,
+            "operatingCountries": 6
+          },
+          {
+            "name": "LVMH MoÃ«t Hennessy-Louis Vuitton S.A.",
+            "revenue": 33289,
+            "dominant": "Other Specialty",
+            "rank": 32,
+            "operatingCountries": 70
+          },
+          {
+            "name": "ITM Daoveloppement",
+            "revenue": 31853,
+            "dominant": "Supermarket",
+            "rank": 33,
+            "operatingCountries": 4
+          },
+          {
+            "name": "SystÃ¨me U",
+            "revenue": 21607,
+            "dominant": "Supermarket",
+            "rank": 48,
+            "operatingCountries": 2
+          },
+          {
+            "name": "Groupe Adeo SA",
+            "revenue": 20886,
+            "dominant": "Home Improvement",
+            "rank": 49,
+            "operatingCountries": 13
+          },
+          {
+            "name": "Daocathlon S.A.",
+            "revenue": 12399,
+            "dominant": "Other Specialty",
+            "rank": 79,
+            "operatingCountries": 30
+          },
+          {
+            "name": "Kering S.A.",
+            "revenue": 10274,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 98,
+            "operatingCountries": 95
+          },
+          {
+            "name": "FNAC Darty S.A. (formerly Groupe FNAC",
+            "revenue": 8395,
+            "dominant": "Other Specialty",
+            "rank": 122,
+            "operatingCountries": 9
+          },
+          {
+            "name": "Herma¨s International SCA",
+            "revenue": 5320,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 180,
+            "operatingCountries": 46
+          },
+          {
+            "name": "LagardÃ¨re Travel Retail SAS",
+            "revenue": 3834,
+            "dominant": "Other Specialty",
+            "rank": 243,
+            "operatingCountries": 34
+          }
+        ]     },
+
+      {"name": "Germany",
+        "children": [
+          {
+            "name": "Schwarz Group",
+            "revenue": 111766,
+            "dominant": "Discount Store",
+            "rank": 5,
+            "operatingCountries": 30
+          },
+          {
+            "name": "Aldi Einkauf GmbH & Co. oHG",
+            "revenue": 98287,
+            "dominant": "Discount Store",
+            "rank": 8,
+            "operatingCountries": 18
+          },
+          {
+            "name": "Edeka Group",
+            "revenue": 57484,
+            "dominant": "Supermarket",
+            "rank": 17,
+            "operatingCountries": 1
+          },
+          {
+            "name": "REWE Combine",
+            "revenue": 49713,
+            "dominant": "Supermarket",
+            "rank": 19,
+            "operatingCountries": 11
+          },
+          {
+            "name": "Metro AG",
+            "revenue": 40961,
+            "dominant": "Cash & Carry/Warehouse Club",
+            "rank": 26,
+            "operatingCountries": 15
+          },
+          {
+            "name": "Ceconomy AG",
+            "revenue": 24434,
+            "dominant": "Electronics Specialty",
+            "rank": 40,
+            "operatingCountries": 15
+          },
+          {
+            "name": "Otto (GmbH & Co KG)",
+            "revenue": 12158,
+            "dominant": "Non-Store",
+            "rank": 83,
+            "operatingCountries": 30
+          },
+          {
+            "name": "Dirk Rossmann GmbH",
+            "revenue": 10144,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 99,
+            "operatingCountries": 6
+          },
+          {
+            "name": "dm-drogerie markt GmbH + Co. KG",
+            "revenue": 10091,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 100,
+            "operatingCountries": 13
+          },
+          {
+            "name": "Tengelmann Warenhandelsgesellschaft",
+            "revenue": 8183,
+            "dominant": "Home Improvement",
+            "rank": 125,
+            "operatingCountries": 13
+          },
+          {
+            "name": "Globus Holding GmbH & Co. KG",
+            "revenue": 7789,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 132,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Bauhaus GmbH & Co. KG",
+            "revenue": 6145,
+            "dominant": "Home Improvement",
+            "rank": 162,
+            "operatingCountries": 19
+          },
+          {
+            "name": "Deichmann SE",
+            "revenue": 5636,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 173,
+            "operatingCountries": 26
+          },
+          {
+            "name": "Zalando SE",
+            "revenue": 5060,
+            "dominant": "Non-Store",
+            "rank": 191,
+            "operatingCountries": 15
+          },
+          {
+            "name": "MÃ¼ller Holding Ltd. & Co. KG",
+            "revenue": 4786,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 202,
+            "operatingCountries": 7
+          },
+          {
+            "name": "McKesson Europe AG (formerly Celesio",
+            "revenue": 4561,
+            "dominant": "Drug Store/Pharmacy",
+            "rank": 216,
+            "operatingCountries": 9
+          },
+          {
+            "name": "HORNBACH Baumarkt AG Group",
+            "revenue": 4488,
+            "dominant": "Home Improvement",
+            "rank": 219,
+            "operatingCountries": 9
+          },
+          {
+            "name": "NORMA Unternehmens Stiftung",
+            "revenue": 3877,
+            "dominant": "Discount Store",
+            "rank": 239,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Intersport Deutschland eG",
+            "revenue": 3821,
+            "dominant": "Other Specialty",
+            "rank": 244,
+            "operatingCountries": 6
+          }
+        ]     },
+      {"name": "Italy",
+        "children": [
+          {
+            "name": "Coop Italia",
+            "revenue": 13593,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 71,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Conad Consorzio Nazionale",
+            "revenue": 13188,
+            "dominant": "Supermarket",
+            "rank": 73,
+            "operatingCountries": 5
+          },
+          {
+            "name": "Esselunga S.p.A.",
+            "revenue": 8560,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 121,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Gruppo Eurospin",
+            "revenue": 5935,
+            "dominant": "Discount Store",
+            "rank": 168,
+            "operatingCountries": 2
+          }
+        ]     },
+      {"name": "Netherlands",
+        "children": [
+          {
+            "name": "Ahold Delhaize",
+            "revenue": 72312,
+            "dominant": "Supermarket",
+            "rank": 11,
+            "operatingCountries": 10
+          },
+          {
+            "name": "The IKEA Group (INGKA Holding B.V.)",
+            "revenue": 37426,
+            "dominant": "Other Specialty",
+            "rank": 27,
+            "operatingCountries": 29
+          },
+          {
+            "name": "Jumbo Groep Holding B.V.",
+            "revenue": 6368,
+            "dominant": "Supermarket",
+            "rank": 153,
+            "operatingCountries": 1
+          },
+          {
+            "name": "SHV Holdings N.V. / Makro",
+            "revenue": 3979,
+            "dominant": "Cash & Carry/Warehouse Club",
+            "rank": 233,
+            "operatingCountries": 5
+          },
+          {
+            "name": "Grandvision N.V.",
+            "revenue": 3888,
+            "dominant": "Other Specialty",
+            "rank": 238,
+            "operatingCountries": 44
+          },
+          {
+            "name": "Action Nederland BV",
+            "revenue": 3853,
+            "dominant": "Discount Department Store",
+            "rank": 242,
+            "operatingCountries": 7
+          }
+        ]     },
+      {"name": "Norway",
+        "children": [{ "name": "NorgesGruppen ASA",
+            "revenue": 9890,
+            "dominant": "Discount Store",
+            "rank": 104,
+            "operatingCountries": 1
+          },
+          {
+            "name": "Reitan Group",
+            "revenue": 7214,
+            "dominant": "Discount Store",
+            "rank": 141,
+            "operatingCountries": 7
+          },
+          {
+            "name": "Coop Norge",
+            "revenue": 5508,
+            "dominant": "Supermarket",
+            "rank": 176,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Portugal",
+        "children": [
+          { "name": "Jerónimo Martins",
+            "revenue": 18346,
+            "dominant": "Discount Store",
+            "rank": 55,
+            "operatingCountries": 3
+          },
+          {
+            "name": "Sonae, SGPS, SA",
+            "revenue": 6260,
+            "dominant": "Supermarket",
+            "rank": 156,
+            "operatingCountries": 24
+          }
+        ]     },
+      {"name": "Russia",
+        "children": [
+          {
+            "name": "X5 Retail Group N.V.",
+            "revenue": 22191,
+            "dominant": "Discount Store",
+            "rank": 47,
+            "operatingCountries": 1
+          },
+          {
+            "name": "PJSC \"Magnit",
+            "revenue": 19381,
+            "dominant": "Convenience/Forecourt Store",
+            "rank": 51,
+            "operatingCountries": 1
+          },
+          { "name": "Lenta Group",
+            "revenue": 6258,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 157,
+            "operatingCountries": 1
+          },
+          {
+            "name": "OJSC Dixy Group",
+            "revenue": 4803,
+            "dominant": "Supermarket",
+            "rank": 201,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Spain",
+        "children": [
+          {
+            "name": "Inditex",
+            "revenue": 28891,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 35,
+            "operatingCountries": 96
+          },
+          {
+            "name": "Mercadona",
+            "revenue": 23683,
+            "dominant": "Supermarket",
+            "rank": 41,
+            "operatingCountries": 2
+          },
+          {
+            "name": "El Corte Inglés",
+            "revenue": 15267,
+            "dominant": "Department Store",
+            "rank": 62,
+            "operatingCountries": 15
+          },
+          { "name": "Distribuidora Internacional de",
+            "revenue": 9717,
+            "dominant": "Discount Store",
+            "rank": 105,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Grupo Eroski",
+            "revenue": 5280,
+            "dominant": "Supermarket",
+            "rank": 183,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Sweden",
+        "children": [
+          {
+            "name": "H & M Hennes & Mauritz AB",
+            "revenue": 23197,
+            "dominant": "Apparel/Footwear Specialty",
+            "rank": 43,
+            "operatingCountries": 69
+          },
+          {
+            "name": "ICA Gruppen AB",
+            "revenue": 12178,
+            "dominant": "Supermarket",
+            "rank": 82,
+            "operatingCountries": 5
+          },
+          { "name": "Axel Johnson AB",
+            "revenue": 6296,
+            "dominant": "Supermarket",
+            "rank": 154,
+            "operatingCountries": 3
+          },
+          {
+            "name": "Coop Sverige AB",
+            "revenue": 3764,
+            "dominant": "Supermarket",
+            "rank": 247,
+            "operatingCountries": 1
+          }
+        ]     },
+      {"name": "Switzerland",
+        "children": [
+          {
+            "name": "Migros-Genossenschafts Bund",
+            "revenue": 24529,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "rank": 39,
+            "operatingCountries": 4
+          },
+          {
+            "name": "Coop Group",
+            "revenue": 22517,
+            "dominant": "Supermarket",
+            "rank": 44,
+            "operatingCountries": 7
+          },
+          {
+            "name": "Dufry AG",
+            "revenue": 8290,
+            "dominant": "Other Specialty",
+            "rank": 123,
+            "operatingCountries": 64
+          },
+          { "name": "Compagnie Financière Richemont SA",
+            "revenue": 8073,
+            "dominant": "Other Specialty",
+            "rank": 129,
+            "operatingCountries": 55
+          }
+        ]     },
+      {"name": "UK",
+        "children": [
+          {
+            "name": "Tesco PLC",
+            "revenue": 73961,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "operatingCountries": 8,
+            "rank": 10
+          },
+          {
+            "name": "J Sainsbury plc",
+            "revenue": 36611,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "operatingCountries": 2,
+            "rank": 28
+          },
+          {
+            "name": "Wm Morrison Supermarkets PLC",
+            "revenue": 22426,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 45
+          },
+          {
+            "name": "Kingfisher plc",
+            "revenue": 15142,
+            "dominant": "Home Improvement",
+            "operatingCountries": 10,
+            "rank": 63
+          },
+          {
+            "name": "Marks and Spencer Group plc",
+            "revenue": 14168,
+            "dominant": "Department Store",
+            "operatingCountries": 57,
+            "rank": 68
+          },
+          {
+            "name": "Dixons Carphone plc",
+            "revenue": 14072,
+            "dominant": "Electronics Specialty",
+            "operatingCountries": 9,
+            "rank": 70
+          },
+          {
+            "name": "John Lewis Partnership plc",
+            "revenue": 13257,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 72
+          },
+          {
+            "name": "Co-operative Group Ltd.",
+            "revenue": 9155,
+            "dominant": "Convenience/Forecourt Store",
+            "operatingCountries": 1,
+            "rank": 111
+          },
+          {
+            "name": "Associated British Foods plc / Primark",
+            "revenue": 8931,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 11,
+            "rank": 114
+          },
+          {
+            "name": "Next plc",
+            "revenue": 5248,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 74,
+            "rank": 185
+          },
+          {
+            "name": "Sports Direct International plc",
+            "revenue": 4240,
+            "dominant": "Other Specialty",
+            "operatingCountries": 24,
+            "rank": 224
+          },
+          {
+            "name": "B&M European Value Retail S.A.",
+            "revenue": 4012,
+            "dominant": "Discount Store",
+            "operatingCountries": 2,
+            "rank": 229
+          },
+          {
+            "name": "Iceland Topco Limited",
+            "revenue": 3995,
+            "dominant": "Supermarket",
+            "operatingCountries": 6,
+            "rank": 232
+          },
+          {
+            "name": "JD Sports Fashion Plc",
+            "revenue": 3943,
+            "dominant": "Other Specialty",
+            "operatingCountries": 14,
+            "rank": 234
+          }
+        ]     }
+    ]
+  },
+    {
+    "name": "North America",
+    "children": [
+      {"name": "Canada",
+        "children": [
+          {
+            "name": "Loblaw Companies Limited",
+            "revenue": 35147,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "operatingCountries": 6,
+            "rank": 30
+          },
+          {
+            "name": "Empire Company Limited",
+            "revenue": 18946,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 53
+          },
+          {
+            "name": "Hudson's Bay Company",
+            "revenue": 11109,
+            "dominant": "Department Store",
+            "operatingCountries": 9,
+            "rank": 91
+          },
+          {
+            "name": "Metro Inc.",
+            "revenue": 10022,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 101
+          },
+          {
+            "name": "Canadian Tire Corporation",
+            "revenue": 9353,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 109
+          },
+          {
+            "name": "Save On Foods",
+            "revenue": 4005,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 231
+          }
+        ]     },
+      {"name": "US",
+        "children": [
+          {
+            "name": "Wal-Mart Stores Inc.",
+            "revenue": 500343,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "operatingCountries": 29,
+            "rank": 1
+          },
+          {
+            "name": "Costco Wholesale Corporation",
+            "revenue": 129025,
+            "dominant": "Cash & Carry/Warehouse Club",
+            "operatingCountries": 12,
+            "rank": 2
+          },
+          {
+            "name": "The Kroger Co.",
+            "revenue": 118982,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 3
+          },
+          {
+            "name": "Amazon.com",
+            "revenue": 118573,
+            "dominant": "Non-Store",
+            "operatingCountries": 14,
+            "rank": 4
+          },
+          {
+            "name": "The Home Depot Inc.",
+            "revenue": 100904,
+            "dominant": "Home Improvement",
+            "operatingCountries": 4,
+            "rank": 6
+          },
+          {
+            "name": "Hy-Vee",
+            "revenue": 100000,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 102
+          },
+          {
+            "name": "Walgreens Boots Alliance Inc.",
+            "revenue": 99115,
+            "dominant": "Drug Store/Pharmacy",
+            "operatingCountries": 10,
+            "rank": 7
+          },
+          {
+            "name": "CVS Health Corporation",
+            "revenue": 79398,
+            "dominant": "Drug Store/Pharmacy",
+            "operatingCountries": 3,
+            "rank": 9
+          },
+          {
+            "name": "Target Corporation",
+            "revenue": 71879,
+            "dominant": "Discount Department Store",
+            "operatingCountries": 1,
+            "rank": 12
+          },
+          {
+            "name": "Lowe's Companies",
+            "revenue": 68619,
+            "dominant": "Home Improvement",
+            "operatingCountries": 3,
+            "rank": 14
+          },
+          {
+            "name": "Albertsons Companies",
+            "revenue": 59925,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 15
+          },
+          {
+            "name": "Best Buy Co.",
+            "revenue": 42151,
+            "dominant": "Electronics Specialty",
+            "operatingCountries": 4,
+            "rank": 24
+          },
+          {
+            "name": "The TJX Companies",
+            "revenue": 35865,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 10,
+            "rank": 29
+          },
+          {
+            "name": "Publix Super Markets",
+            "revenue": 34837,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 31
+          },
+          {
+            "name": "Apple Inc. / Apple Retail Stores",
+            "revenue": 30500,
+            "dominant": "Electronics Specialty",
+            "operatingCountries": 19,
+            "rank": 34
+          },
+          {
+            "name": "Macy's",
+            "revenue": 24837,
+            "dominant": "Department Store",
+            "operatingCountries": 5,
+            "rank": 37
+          },
+          {
+            "name": "H.E. Butt Grocery Company",
+            "revenue": 24600,
+            "dominant": "Supermarket",
+            "operatingCountries": 2,
+            "rank": 38
+          },
+          {
+            "name": "Dollar General Corporation",
+            "revenue": 23471,
+            "dominant": "Discount Store",
+            "operatingCountries": 1,
+            "rank": 42
+          },
+          {
+            "name": "Dollar Tree",
+            "revenue": 22246,
+            "dominant": "Discount Store",
+            "operatingCountries": 2,
+            "rank": 46
+          },
+          {
+            "name": "Kohl's Corporation",
+            "revenue": 19095,
+            "dominant": "Department Store",
+            "operatingCountries": 1,
+            "rank": 52
+          },
+          {
+            "name": "Meijer",
+            "revenue": 18900,
+            "dominant": "Hypermarket/Supercenter/Superstore",
+            "operatingCountries": 1,
+            "rank": 54
+          },
+          {
+            "name": "Sears Holdings Corporation",
+            "revenue": 16702,
+            "dominant": "Department Store",
+            "operatingCountries": 2,
+            "rank": 57
+          },
+          {
+            "name": "Whole Foods Market",
+            "revenue": 16030,
+            "dominant": "Supermarket",
+            "operatingCountries": 3,
+            "rank": 58
+          },
+          {
+            "name": "The Gap",
+            "revenue": 15855,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 46,
+            "rank": 59
+          },
+          {
+            "name": "Rite Aid Corporation",
+            "revenue": 15833,
+            "dominant": "Drug Store/Pharmacy",
+            "operatingCountries": 1,
+            "rank": 60
+          },
+          {
+            "name": "Nordstrom",
+            "revenue": 15137,
+            "dominant": "Department Store",
+            "operatingCountries": 3,
+            "rank": 64
+          },
+          {
+            "name": "Ross Stores",
+            "revenue": 14135,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 1,
+            "rank": 69
+          },
+          {
+            "name": "BJâ€™s Wholesale Club Holdings",
+            "revenue": 12755,
+            "dominant": "Cash & Carry/Warehouse Club",
+            "operatingCountries": 1,
+            "rank": 75
+          },
+          {
+            "name": "L Brands",
+            "revenue": 12632,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 75,
+            "rank": 77
+          },
+          {
+            "name": "J. C. Penney Company",
+            "revenue": 12506,
+            "dominant": "Department Store",
+            "operatingCountries": 2,
+            "rank": 78
+          },
+          {
+            "name": "Bed Bath and Beyond Inc.",
+            "revenue": 12349,
+            "dominant": "Other Specialty",
+            "operatingCountries": 4,
+            "rank": 80
+          },
+          {
+            "name": "AutoZone",
+            "revenue": 10889,
+            "dominant": "Other Specialty",
+            "operatingCountries": 4,
+            "rank": 93
+          },
+          {
+            "name": "NIKE",
+            "revenue": 10428,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 65,
+            "rank": 96
+          },
+          {
+            "name": "Liberty Interactive Corporation /",
+            "revenue": 10404,
+            "dominant": "Non-Store",
+            "operatingCountries": 9,
+            "rank": 97
+          },
+          {
+            "name": "Menard",
+            "revenue": 10000,
+            "dominant": "Home Improvement",
+            "operatingCountries": 1,
+            "rank": 103
+          },
+          {
+            "name": "Southeastern Grocers",
+            "revenue": 9500,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 107
+          },
+          {
+            "name": "Advance Auto Parts",
+            "revenue": 9374,
+            "dominant": "Other Specialty",
+            "operatingCountries": 3,
+            "rank": 108
+          },
+          {
+            "name": "GameStop Corp.",
+            "revenue": 9225,
+            "dominant": "Other Specialty",
+            "operatingCountries": 14,
+            "rank": 110
+          },
+          {
+            "name": "The Sherwin-Williams Company /",
+            "revenue": 9117,
+            "dominant": "Home Improvement",
+            "operatingCountries": 14,
+            "rank": 112
+          },
+          {
+            "name": "O'Reilly Automotive",
+            "revenue": 8978,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 113
+          },
+          {
+            "name": "Giant Eagle",
+            "revenue": 8900,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 115
+          },
+          {
+            "name": "Wegmans Food Markets",
+            "revenue": 8700,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 118
+          },
+          {
+            "name": "Dick's Sporting Goods",
+            "revenue": 8590,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 120
+          },
+          {
+            "name": "PetSmart",
+            "revenue": 8000,
+            "dominant": "Other Specialty",
+            "operatingCountries": 3,
+            "rank": 130
+          },
+          {
+            "name": "Bass Pro Group",
+            "revenue": 7837,
+            "dominant": "Other Specialty",
+            "operatingCountries": 2,
+            "rank": 131
+          },
+          {
+            "name": "Foot Locker",
+            "revenue": 7782,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 26,
+            "rank": 133
+          },
+          {
+            "name": "Tractor Supply Company",
+            "revenue": 7256,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 139
+          },
+          {
+            "name": "WinCo Foods LLC",
+            "revenue": 7000,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 146
+          },
+          {
+            "name": "Army and Air Force Exchange Service",
+            "revenue": 6692,
+            "dominant": "Convenience/Forecourt Store",
+            "operatingCountries": 34,
+            "rank": 151
+          },
+          {
+            "name": "Ascena Retail Group",
+            "revenue": 6650,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 3,
+            "rank": 152
+          },
+          {
+            "name": "Dillard's",
+            "revenue": 6269,
+            "dominant": "Department Store",
+            "operatingCountries": 1,
+            "rank": 155
+          },
+          {
+            "name": "Signet Jewelers Limited",
+            "revenue": 6232,
+            "dominant": "Other Specialty",
+            "operatingCountries": 5,
+            "rank": 159
+          },
+          {
+            "name": "Burlington Stores",
+            "revenue": 6110,
+            "dominant": "Department Store",
+            "operatingCountries": 2,
+            "rank": 165
+          },
+          {
+            "name": "Staples",
+            "revenue": 5800,
+            "dominant": "Other Specialty",
+            "operatingCountries": 4,
+            "rank": 170
+          },
+          {
+            "name": "Ulta Beauty",
+            "revenue": 5607,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 174
+          },
+          {
+            "name": "Berkshire Hathaway Inc. / Retailing",
+            "revenue": 5574,
+            "dominant": "Other Specialty",
+            "operatingCountries": 9,
+            "rank": 175
+          },
+          {
+            "name": "The Michaels Companies",
+            "revenue": 5362,
+            "dominant": "Other Specialty",
+            "operatingCountries": 2,
+            "rank": 177
+          },
+          {
+            "name": "Williams-Sonoma",
+            "revenue": 5292,
+            "dominant": "Non-Store",
+            "operatingCountries": 14,
+            "rank": 182
+          },
+          {
+            "name": "Big Lots",
+            "revenue": 5271,
+            "dominant": "Discount Store",
+            "operatingCountries": 1,
+            "rank": 184
+          },
+          {
+            "name": "Tapestry",
+            "revenue": 5120,
+            "dominant": "Other Specialty",
+            "operatingCountries": 70,
+            "rank": 188
+          },
+          {
+            "name": "Demoulas Super Markets",
+            "revenue": 5000,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 195
+          },
+          {
+            "name": "Office Depot",
+            "revenue": 4962,
+            "dominant": "Other Specialty",
+            "operatingCountries": 2,
+            "rank": 196
+          },
+          {
+            "name": "Academy Ltd. (dba Academy Sports +",
+            "revenue": 4900,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 198
+          },
+          {
+            "name": "Defense Commissary Agency (DeCA)",
+            "revenue": 4900,
+            "dominant": "Supermarket",
+            "operatingCountries": 13,
+            "rank": 199
+          },
+          {
+            "name": "Wayfair",
+            "revenue": 4721,
+            "dominant": "Non-Store",
+            "operatingCountries": 4,
+            "rank": 205
+          },
+          {
+            "name": "Neiman Marcus Group LTD LLC",
+            "revenue": 4706,
+            "dominant": "Department Store",
+            "operatingCountries": 2,
+            "rank": 206
+          },
+          {
+            "name": "Sprouts Farmers Market",
+            "revenue": 4665,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 210
+          },
+          {
+            "name": "Hobby Lobby Stores",
+            "revenue": 4600,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 213
+          },
+          {
+            "name": "Smart & Final Stores",
+            "revenue": 4571,
+            "dominant": "Cash & Carry/Warehouse Club",
+            "operatingCountries": 2,
+            "rank": 215
+          },
+          {
+            "name": "PETCO Animal Supplies",
+            "revenue": 4550,
+            "dominant": "Other Specialty",
+            "operatingCountries": 3,
+            "rank": 217
+          },
+          {
+            "name": "The Save Mart Companies",
+            "revenue": 4500,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 218
+          },
+          {
+            "name": "Save-A-Lot Food Stores Ltd.",
+            "revenue": 4470,
+            "dominant": "Discount Store",
+            "operatingCountries": 2,
+            "rank": 220
+          },
+          {
+            "name": "Reinalt-Thomas Corporation",
+            "revenue": 4400,
+            "dominant": "Other Specialty",
+            "operatingCountries": 1,
+            "rank": 221
+          },
+          {
+            "name": "Stater Bros. Holdings Inc.",
+            "revenue": 4340,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 222
+          },
+          {
+            "name": "Belk",
+            "revenue": 4200,
+            "dominant": "Department Store",
+            "operatingCountries": 1,
+            "rank": 226
+          },
+          {
+            "name": "Tiffany & Co.",
+            "revenue": 4045,
+            "dominant": "Other Specialty",
+            "operatingCountries": 27,
+            "rank": 228
+          },
+          {
+            "name": "Ingles Markets",
+            "revenue": 3861,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 240
+          },
+          {
+            "name": "American Eagle Outfitters",
+            "revenue": 3796,
+            "dominant": "Apparel/Footwear Specialty",
+            "operatingCountries": 31,
+            "rank": 246
+          },
+          {
+            "name": "The Golub Corporation",
+            "revenue": 3700,
+            "dominant": "Supermarket",
+            "operatingCountries": 1,
+            "rank": 250
+          }
+        ]     }
+    ]
+  }, {
+      "name": "South America",
+      "children": [
+        {"name": "Brazil",
+          "children": [
+            { "name": "Lojas Americanas S.A.",
+              "revenue": 5336,
+              "dominant": "Discount Department Store",
+              "operatingCountries": 1,
+              "rank": 178
+            },
+            { "name": "RaiaDrogasil S.A.",
+              "revenue": 4337,
+              "dominant": "Drug Store/Pharmacy",
+              "operatingCountries": 1,
+              "rank": 223
+            },
+            { "name": "Magazine Luiza S.A.",
+              "revenue": 3735,
+              "dominant": "Other Specialty",
+              "operatingCountries": 1,
+              "rank": 249
+            }
+          ]     },
+        {"name": "Chile",
+          "children": [
+            { "name": "Cencosud S.A.",
+              "revenue": 15279,
+              "dominant": "Supermarket",
+              "operatingCountries": 5,
+              "rank": 61
+            },
+            { "name": "S.A.C.I. Falabella",
+              "revenue": 11143,
+              "dominant": "Home Improvement",
+              "operatingCountries": 6,
+              "rank": 90
+            }
+          ]     },
+        {"name": "Mexico",
+          "children": [
+            { "name": "FEMSA Comercio",
+              "revenue": 12684,
+              "dominant": "Convenience/Forecourt Store",
+              "operatingCountries": 4,
+              "rank": 76
+            },
+            { "name": "Organización Soriana",
+              "revenue": 8120,
+              "dominant": "Hypermarket/Supercenter/Superstore",
+              "operatingCountries": 1,
+              "rank": 126
+            },
+            { "name": "El Puerto de Liverpool",
+              "revenue": 5738,
+              "dominant": "Department Store",
+              "operatingCountries": 1,
+              "rank": 171
+            },
+            { "name": "Grupo Comercial Chedraui",
+              "revenue": 4954,
+              "dominant": "Hypermarket/Supercenter/Superstore",
+              "operatingCountries": 2,
+              "rank": 197
+            }
+          ]     }
+      ]
+    }
+  ] }

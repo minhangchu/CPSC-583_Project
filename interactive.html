@@ -2,124 +2,222 @@
 <html>
 <head>
     <style>
-        .node circle {
-            fill-opacity: 40%;
-        }
     </style>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-<!--
-<h2> Fall 2020 - University of Calgary </h2>
+
 <h2> CPSC 583 </h2>
-<h2> Minh Hang Chu - 30074056 </h2>
-<h2> Project Hand-in 3 </h2>
+<h2> Project Stage 4 </h2>
 
 <div class="wrapper">
-    <a href="version1.html"><button> Variation 1 </button></a>
-    <a href="version2.html"><button> Variation 2 </button></a>
-    <a href="version3.html"><button> Variation 3 </button></a>
-</div>-->
+    <a href="interactive2.html"><button> Sort by Revenue </button></a>
+</div>
 
+<body>
 <script type="text/javascript">
-    var radius = 600;
-    var margin = 250;
+    var radius = 500;
+    var margin = 200;
     var angle = 360;
-    var cluster = d3.layout.cluster()
+    var tree = d3.layout.tree()
         .size([angle, radius-margin]);
+
     var diagonal = d3.svg.diagonal.radial()
-        .projection (function(d) { return [d.y, d.x / 180* Math.PI];});  var svg = d3.select("body").append("svg")
-        .attr("width",2*radius)
+        .projection (function(d) { return [d.y, d.x / 180* Math.PI];});
+
+    var svg = d3.select("body").append("svg")
+        .attr("width",2*radius+500)
         .attr("height",2*radius)
-        .append("g")
+
+    var circleGraph = svg.append("g")
         .attr("transform","translate("+radius + "," + radius + ")");
 
     d3.json("retail.json", function(error, root){
-        var nodes = cluster.nodes(root);
-        var links = cluster.links(nodes);
-        var link = svg.selectAll(".link")
+        var nodes = tree.nodes(root);
+        var links = tree.links(nodes);
+
+        var link = circleGraph.selectAll(".link")
             .data(links)
             .enter().append("path")
             .attr("class","link")
             .attr("d", diagonal);
-        var node = svg.selectAll(".node")
+
+        var node = circleGraph.selectAll(".node")
             .data(nodes)
             .enter().append("g")
             .attr("class","node")
-            .attr("class", function(d) { return "node" + (d.children ? "node--internal" : " node--leaf"); })
+            .attr("class", function(d) { return "node" + (d.children ? " node-internal" : " node-leaf-" + d.rank); })
             .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; });
 
         var myColor = d3.scale.ordinal()
-            .domain([d3.extent(node, function (d) {
-                return d.dominant;
-            })])
-            //  .range([#8dd3c7,#ffffb3,#bebada,#fb8072,#80b1d3,#fdb462, #b3de69,#fccde5, #d9d9d9, #bc80bd, #ccebc5,#ffed6f]);
-            .range(["red", "blue", "greenyellow", "yellow", "green", "grey", "violet", "pink", "brown", "slateblue", "grey1", "orange","rebeccapurple"]);
+            .domain([d3.extent(node, function(d) { return (d.children ? undefined: d.dominant); })])
+            .range(["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17becf","#4e79a7", "#e7298a","#a6761d"]);
 
         var myscale = d3.scale.linear()
             .domain([3700,500343])
             .range([5, 30]);
 
-        var tooltip = d3.select("body")
-            .append("div")
-            .style("visibility", "hidden")
-            .text("a simple tooltip");
+        var ocscale = d3.scale.linear()
+            .domain([1,96])
+            .range([5, 20]);
 
         node.append("circle")
-            //.attr("r", 4.5);0
-            .attr("r", function(d){ return d.children ? 0 : myscale(d.revenue)})
-            .attr("cx", function(d){ return d.children ? 0 : myscale(d.revenue)})
+            .attr("class", function(d) { return "node" + (d.children ? " node-internal" : " node-leaf-" + d.rank); })
+            .attr("r", function(d){
+                return d.children ? 0 : myscale(d.revenue)})
+            .attr("cx", function(d){ return d.children ? 5 : myscale(d.revenue)})
             .attr("fill", function(d){
                 return myColor(d.dominant)})
-            .on("mouseover", function(){return tooltip.style("visibility", "visible");})
-          //  .on("mouseover", handleMouseOver)
-            .on("mouseout", handleMouseOut);
-            // .on("mouseover", function (d){
-            //     d3.selectAll("circle").attr("fill", "black")
-            // });
+            .style("opacity", 0.4)
 
         node.append("text")
-            .attr("dy", ".31em")
-            .attr("x", function(d) { return d.x < 180  ? 8 : -8; })
+            .attr("class", function(d) { return "nameText" + (d.children ? " internal" : " leaf-" + d.rank); })
+            .attr("x", function(d) { return d.x < 180  ? 10 : -10; })
             .attr("text-anchor", function(d) { return d.x < 180  ? "start" : "end"; })
-            .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-            .text(function(d) { return d.name; });
+            .attr("fill",function(d){
+                return (d.children ? "#555" : myColor(d.dominant))})
+            .attr("transform", function(d) { return d.x < 180 ? "translate(10)" : "rotate(180)translate(-10)"; })
+            .text(function(d) { return d.name;});
 
-        function handleMouseOver(d, i) {  // Add interactivity
-            // Use D3 to select element, change color and size
-            d3.select(this)
-                .attr("fill", "black");
+        var label = node.append("text")
+            .text(function(d){ return d.children ? "" : "$" + d.revenue})
+            .attr("class", function(d) { return "revenueLabel" + (d.children ? "" : " leaf-" + d.rank); })
+            .attr("text-anchor", function(d) { return d.x < 180  ? "end" : "start"; })
+            .attr("transform", function(d) { return d.x < 180 ? "translate(-5)" : "rotate(180)translate(5)"; })
+            .style("visibility", "hidden");
+
+        node.on("mouseover", handleMouseOver)
+            .on("click", handleMouseClick)
+            .on("mouseout", handleMouseOut);
+
+        var infoBox = svg.append("g").attr("class","info")
+            .attr("transform","translate("+ radius*2.1 + "," + radius*1.2 + ")")
+
+        var legend = svg.append("g").attr("class", "legend-group")
+            .attr("transform","translate("+radius*2 + "," + 0 + ")")
+            .attr("width", 500)
+            .attr("height",500)
+            .selectAll(".legend")
+            .data(myColor.domain())
+            .enter().append("g")
+            .attr("class", function(d, i) {return "legend" + i})
+            .attr("transform", function(d, i) { return "translate(0," + (i+5) * 25 + ")"; });
 
 
-            // Specify where to put label of text
-            // svg.append("text").attr({
-            //     id: "t" + d.x + "-" + d.y + "-" + i,  // Create an id for text so we can select it later for removing on mouseout
-            //     x: function() { return xScale(d.x) - 30; },
-            //     y: function() { return yScale(d.y) - 15; }
-            // })
-            //     .text(function() {
-            //         return [d.x, d.y];  // Value of the text
-            //     });
+        // draw legend colored rectangles
+        legend.append("rect")
+            .attr("x", 100)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", (d,i)=> myColor(d));
+
+        // draw legend text
+        legend.append("text")
+            .attr("x", 150)
+            .attr("y", 9)
+            .attr("dy", "0.35em")
+            .style("text-anchor", "start")
+            .text(function(d) {return d;});
+
+        d3.select("g.legend-group")
+            .append("g")
+            .attr("class", "legend")
+            .attr("transform", "translate(0,120)")
+            .append("text")
+            .attr("x",100)
+            .attr("y", 10)
+            .attr("dy", "1.5em")
+            .style("text-anchor", "start")
+            .text("Operation Dominants");
+
+        d3.select("g.legend"+0)
+            .style("visibility", "hidden")
+        d3.select("g.legend"+1)
+            .style("visibility", "hidden")
+
+        var infoBoxRect = infoBox.append("rect")
+            .attr("width",margin * 2)
+            .attr("height",margin / 1.5)
+            .style("stroke", "black")
+            .style("fill", "white")
+            .style("visibility", "hidden");
+
+        infoBox.append("text").attr("class","revenue")
+        infoBox.append("text").attr("class","companyName")
+        infoBox.append("text").attr("class","rank")
+        infoBox.append("text").attr("class","operateCountries")
+        infoBox.append("text").attr("class","dominant")
+
+        function handleMouseClick(d, i) {
+            infoBoxRect
+                .style("visibility", "visible");
+            d3.select("text.companyName")
+                .text(d.name + "")
+                .attr("x", 15)
+                .attr("y", 20)
+                .style("font-weight", 10)
+            d3.select("text.revenue")
+                .text("Revenue: $" + d.revenue)
+                .attr("x", 15)
+                .attr("y", 40)
+            d3.select("text.rank")
+                .text("Rank: " + d.rank)
+                .attr("x", 15)
+                .attr("y", 60)
+            d3.select("text.operateCountries")
+                .text("Operating in " + d.operatingCountries + " Countries")
+                .attr("x", 15)
+                .attr("y", 80)
+            d3.select("text.dominant")
+                .text("Type of business: " + d.dominant)
+                .attr("x", 15)
+                .attr("y", 100)
         }
 
-        function handleMouseOut(d, i) {  // Add interactivity
-            // Use D3 to select element, change color and size
-            d3.select(this)
+        function handleMouseOver(d, i) {
+            d3.select("circle.node.node-leaf-" + d.rank)
                 .attr("fill", function(d){
                     return myColor(d.dominant)})
-            // Specify where to put label of text
-            // svg.append("text").attr({
-            //     id: "t" + d.x + "-" + d.y + "-" + i,  // Create an id for text so we can select it later for removing on mouseout
-            //     x: function() { return xScale(d.x) - 30; },
-            //     y: function() { return yScale(d.y) - 15; }
-            // })
-            //     .text(function() {
-            //         return [d.x, d.y];  // Value of the text
-            //     });
+                .style("opacity", 1)
+                .style("stroke-width", 1)
+                .style("stroke", "black")
+
+            d3.select("text.revenueLabel.leaf-" + d.rank)
+                .style("visibility", "visible")
+                .attr("fill", "black")
+                .attr("fill",function(d){
+                    return myColor(d.dominant)})
+                .style("opacity", 1);
+
+            d3.select("text.nameText.leaf-" + d.rank)
+                .attr("fill", "black")
+                .style("opacity", 1);
         }
 
+        function handleMouseOut(d, i) {
+            d3.select("text.revenueLabel.leaf-" + d.rank)
+                .style("visibility", "hidden")
+
+            d3.select("circle.node.node-leaf-" + d.rank)
+                .attr("fill", function(d){
+                    return myColor(d.dominant)})
+                .style("opacity", 0.6)
+                .style("stroke-width", 0)
+                .style("stroke", "white")
+
+            d3.select("text.revenueLabel.leaf-" + d.rank)
+                .style("visibility", "hidden")
+                .attr("fill",function(d){
+                    return myColor(d.dominant)})
+                .style("opacity", 1);
+
+            d3.select("text.nameText.leaf-" + d.rank)
+                .attr("fill",function(d){
+                    return myColor(d.dominant)})
+                .style("opacity", 1);
+        }
     });
 </script>
 </body>
+
 </html>
